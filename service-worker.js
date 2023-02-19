@@ -3,7 +3,7 @@ var cacheFiles = [
     'index.html',
     'lessons.js',
     'style.css',
-    'webstore.webmanifest',
+    'webstore.manifest',
     'images/art.png',
     'images/biology.png',
     'images/chemistry.png',
