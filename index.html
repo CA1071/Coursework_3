@@ -12,6 +12,12 @@
         <script src="lessons.js"></script>
         <!-- Webmanifest link -->
         <link rel="manifest" href="webstore.manifest" crossorigin="use-credentials" />
+        <!-- Registering Service Worker-->
+        <script>
+            if('serviceWorker' in navigator){
+                navigator.serviceWorker.register('service-worker.js');
+            }
+        </script>
     </head>
     <body>
         <div id="app">
