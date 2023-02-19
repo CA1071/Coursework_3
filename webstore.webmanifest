@@ -1,0 +1,16 @@
+{
+	"name":"Afterschool Classes Webstore",
+	"short_name":"webstore",
+	"description": "My online webstore for afterschool classes",
+	"icons":[
+		{
+			"src": "images/english.png",
+			"sizes":"512x512",
+			"type":"image/png"
+		}
+	
+	],
+	"start_url":"index.html",
+	"display":"fullscreen",
+	"background":"#C4C4C4"
+}
