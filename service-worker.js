@@ -33,7 +33,7 @@ self.addEventListener('fetch',function(e){
             console.log('[Service Worker] Fetching resource: ' + e.request.url);
             return r || fetch(e.request).then(function(response){
                 return caches.open(cacheName).then(function(cache){
-                    cache.put(e.request,response.close());
+                    cache.put(e.request,response.clone());
                     return response;
                 })
             })
